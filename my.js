@@ -1,14 +1,14 @@
 (() => {
 
 	const actions = {
-        birdFlies1(key) {
-			if (key) {
-				document.querySelector('[data-index="0"] .bird').style.transform = `translateX(${window.innerWidth}px)`;
+        // birdFlies1(key) {
+		// 	if (key) {
+		// 		document.querySelector('[data-index="0"] .bird').style.transform = `translateX(${window.innerWidth}px)`;
                 
-			} else {
-				document.querySelector('[data-index="0"] .bird').style.transform = `translateX(-100%)`;
-			}
-		},
+		// 	} else {
+		// 		document.querySelector('[data-index="0"] .bird').style.transform = `translateX(-100%)`;
+		// 	}
+		// },
 		
 		// birdFlies2(key) {
 		// 	if (key) {
